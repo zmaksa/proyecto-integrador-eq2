@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+    border-radius: 67%;
+    border-color: rgb(34, 34, 10);
+    margin: 8%;
+}
+#titulo{
+    color:rgb(185, 140, 26);
+    font-family: 'Times New Roman', Times, serif;
+}
