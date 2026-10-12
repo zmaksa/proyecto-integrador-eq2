@@ -1,11 +1,19 @@
 
 body{
     text-align: justify;
+    background-color:rgb(230, 229, 228);
 }
 
 .textotitulo{
     text-align: center;
 }
+#titulo{
+    color:#faa603;
+    font-family:Times New Roman, serif;
+    -webkit-text-stroke: 1px black;
+    
+}
+
 
 #imagengta{
     border: 2px solid #000;
@@ -22,9 +30,13 @@ body{
 #tabla{
     border: 2px solid black;
     border-radius: 7px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.198);
+    box-shadow: 10px 10px 10px #38043d86;
     border: 1px solid black;
     table-layout: auto;
+    background-color:rgb(230, 166, 234);
+    font-family:sans-serif;
+    color:rgb(0, 0, 0);
+    -webkit-text-stroke: 0.5px rgb(118, 0, 173);
 }
 
 th, td{
@@ -36,4 +48,13 @@ th, td{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.secciontitulo{
+    color:#281586;
+    font-size: 24px;
+}
+.futurojuegotextotitulo{
+    color:#4520fe;
+    -webkit-text-stroke: 0.8px rgb(49, 47, 105);
+    font-size: 20px;
 }
