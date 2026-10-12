@@ -1,25 +1,18 @@
-
-body{
+body {
     text-align: justify;
 }
 
-.textotitulo{
+.textotitulo {
     text-align: center;
 }
 
-#imagengta{
-    border: 2px solid #000;
-    border-radius: 7px;
-    box-shadow: 10px 10px 10px #38043d86;
-}
-
-#tablaestudios{
-    display:flex;
+#tablaestudios {
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#tabla{
+#tabla {
     border: 2px solid black;
     border-radius: 7px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.198);
@@ -27,13 +20,40 @@ body{
     table-layout: auto;
 }
 
-th, td{
+th,
+td {
     padding: 8px;
     text-align: center;
 }
 
-.imagenjuego{
+.contenedorimagenjuego {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.imagen {
+    width: 1020px;
+    height: 800px;
+    border-radius: 7px;
+    box-shadow: 10px 10px 10px #38043d86;
+}
+
+#contenedor-principal {
+    display: flex;
+    gap: 20px;
+}
+
+#contenido-normal {
+    width: 75%;
+}
+
+#barra-lateral {
+    width: 25%;
+    background-color: #222;
+    color: white;
+    padding: 50px;
+    position:sticky;
+    height:max-content;
+    align-self: flex-start;
 }
