@@ -1,10 +1,39 @@
-h1{
-    text-align: center;
-    border-radius: 67%;
-    border-color: rgb(34, 34, 10);
-    margin: 8%;
+
+body{
+    text-align: justify;
 }
-#titulo{
-    color:rgb(185, 140, 26);
-    font-family: 'Times New Roman', Times, serif;
+
+.textotitulo{
+    text-align: center;
+}
+
+#imagengta{
+    border: 2px solid #000;
+    border-radius: 7px;
+    box-shadow: 10px 10px 10px #38043d86;
+}
+
+#tablaestudios{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tabla{
+    border: 2px solid black;
+    border-radius: 7px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.198);
+    border: 1px solid black;
+    table-layout: auto;
+}
+
+th, td{
+    padding: 8px;
+    text-align: center;
+}
+
+.imagenjuego{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
