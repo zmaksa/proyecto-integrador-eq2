@@ -32,12 +32,15 @@ td {
     justify-content: center;
 }
 
+
 .imagen {
     width: 1020px;
-    height: 800px;
+    max-width: 100%; 
+    height: auto;    
     border-radius: 7px;
     box-shadow: 10px 10px 10px #38043d86;
 }
+
 
 #contenedor-principal {
     display: flex;
@@ -48,12 +51,14 @@ td {
     width: 75%;
 }
 
+
 #barra-lateral {
     width: 25%;
     background-color: #222;
     color: white;
     padding: 50px;
-    position:sticky;
-    height:max-content;
+    position: sticky;
+    top: 20px; 
+    height: max-content;
     align-self: flex-start;
 }
