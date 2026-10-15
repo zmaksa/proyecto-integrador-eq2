@@ -1,10 +1,35 @@
 body {
     text-align: justify;
+    background-color: rgb(253, 255, 246);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#contenedor-principal {
+    background-color: rgb(200, 216, 180);
+    
 }
 
 .textotitulo {
     text-align: center;
 }
+
+#titulo {
+    color: #FDB913;
+    font-family: Times New Roman, serif;
+    -webkit-text-stroke: 1px black;
+}
+
+header {
+
+    background-color: #ebf8fc;
+    border-bottom: 2px solid #828282;
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin:0;
+    margin-bottom: 10px;
+}
+
+
 
 #tablaestudios {
     display: flex;
@@ -15,18 +40,21 @@ body {
 #tabla {
     border: 2px solid black;
     border-radius: 7px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.198);
+    box-shadow: 10px 10px 10px #38043d86;
     border: 1px solid black;
     table-layout: auto;
+    background-color: rgb(230, 166, 234);
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.5px rgb(118, 0, 173);
 }
 
-th,
-td {
+th, td {
     padding: 8px;
     text-align: center;
 }
 
-.contenedorimagenjuego {
+.contenedorimagen{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,8 +63,8 @@ td {
 
 .imagen {
     width: 1020px;
-    max-width: 100%; 
-    height: auto;    
+    max-width: 100%;
+    height: auto;
     border-radius: 7px;
     box-shadow: 10px 10px 10px #38043d86;
 }
@@ -45,20 +73,90 @@ td {
 #contenedor-principal {
     display: flex;
     gap: 20px;
+    text-align: justify;
+    background-color: rgb(246, 251, 255);
+    
 }
 
-#contenido-normal {
-    width: 75%;
-}
 
 
 #barra-lateral {
     width: 25%;
-    background-color: #222;
+    background-color: #bfbdd4;
     color: white;
-    padding: 50px;
+    padding: 50px 10px;
     position: sticky;
-    top: 20px; 
+    top: 125px;
     height: max-content;
     align-self: flex-start;
+    border-radius: 7px;
+}
+
+.secciontitulo {
+    color: #281586;
+    font-size: 24px;
+}
+
+.futurojuegotextotitulo {
+    color: #4520fe;
+    -webkit-text-stroke: 0.8px rgb(49, 47, 105);
+    font-size: 20px;
+}
+
+#navegación{
+    
+}
+a:hover {
+    color: #9f29a5;
+    border: 1px solid rgb(118, 118, 118);
+    border-radius: 5px;
+    padding:4px;
+}
+
+.textotitulo{
+    
+    top:10px;
+    
+}
+
+#logorockstar {
+    width: 500px;
+    height: auto;
+}
+
+#introduccion-pagina{
+    margin-bottom: 10px;
+    padding:8px;
+    background-color: rgb(224, 226, 217);
+    border-radius: 7px;
+    padding-bottom: 30px;
+}
+
+.descripcion {
+    font-size: 18px;
+}
+
+#gta6{
+    background-color: #f9dfec;
+    border-radius: 7px;
+}
+.secciontitulo {
+    border-bottom: 2px solid #281586;
+}
+
+.enlacetrailer{
+    text-align: center;
+}
+
+section{
+    margin-bottom: 10px;
+}
+
+#maxpayneremake{
+    background-color: #ccced8;
+    border-radius: 7px;
+}
+#contenedorpaginaoficial{
+    background-color: #f7f4d2;
+    border-radius: 7px;
 }
