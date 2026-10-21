@@ -1,11 +1,26 @@
+
+
+/* 
+paletade colores
+
+2C2E43 mas oscuro
+595260 gris
+B2B1B9 gris claro
+FFD523 amarillo
+
+*/
 body {
     text-align: justify;
-    background-color: rgb(253, 255, 246);
+    background-color: #595260;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
 #contenedor-principal {
-    background-color: rgb(200, 216, 180);
-    
+    display: flex;
+    gap: 20px;
+    text-align: justify;
+    background-color: #2C2E43;
+    color:#B2B1B9;
 }
 
 .textotitulo {
@@ -15,12 +30,12 @@ body {
 #titulo {
     color: #FDB913;
     font-family: Times New Roman, serif;
-    -webkit-text-stroke: 1px black;
+    /* -webkit-text-stroke: 1px black; */
 }
 
 header {
 
-    background-color: #ebf8fc;
+    background-color: #321E48;
     border-bottom: 2px solid #828282;
     border-radius: 7px;
     box-sizing: border-box;
@@ -76,19 +91,13 @@ th, td {
 }
 
 
-#contenedor-principal {
-    display: flex;
-    gap: 20px;
-    text-align: justify;
-    background-color: rgb(246, 251, 255);
-    
-}
+
 
 
 
 #barra-lateral {
     width: 25%;
-    background-color: #bfbdd4;
+    background-color: #4f4e5d;
     color: white;
     padding: 50px 10px;
     position: sticky;
@@ -96,10 +105,11 @@ th, td {
     height: max-content;
     align-self: flex-start;
     border-radius: 7px;
+    border: 1px solid #B2B1B9;
 }
 
 .secciontitulo {
-    color: #281586;
+    color: #B2B1B9;
     font-size: 24px;
 }
 
@@ -110,7 +120,7 @@ th, td {
 }
 
 a:hover {
-    color: #9f29a5;
+    color: #f495f9;
     border: 1px solid rgb(118, 118, 118);
     border-radius: 5px;
     padding:4px;
@@ -130,7 +140,7 @@ a:hover {
 #introduccion-pagina{
     margin-bottom: 10px;
     padding:8px;
-    background-color: rgb(224, 226, 217);
+    background-color: rgb(68, 69, 65);
     border-radius: 7px;
     padding-bottom: 30px;
 }
@@ -140,7 +150,7 @@ a:hover {
 }
 
 #gta6{
-    background-color: #f9dfec;
+    background-color: #4b3540;
     border-radius: 7px;
     padding:8px;
 }
@@ -157,12 +167,12 @@ section{
 }
 
 #maxpayneremake{
-    background-color: #ccced8;
+    background-color: #393c4b;
     border-radius: 7px;
     padding:8px;
 }
 #contenedorpaginaoficial{
-    background-color: #f7f4d2;
+    background-color: #4a493c;
     border-radius: 7px;
 }
 #redessociales{
@@ -182,4 +192,10 @@ section{
 }
 #logorockstar{
     margin:10px;
+}
+a{
+  color:#FFD523;
+}
+html {
+    scroll-behavior: smooth;
 }
